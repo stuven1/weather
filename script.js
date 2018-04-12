@@ -1,5 +1,5 @@
 
-fetch("http://api.openweathermap.org/data/2.5/weather?q=Stockholm,Sweden&units=metric&APPID=1b105aada7b8b5bc46bf82a2950796ef").then((response) => {
+fetch("https://api.openweathermap.org/data/2.5/weather?q=Stockholm,Sweden&units=metric&APPID=1b105aada7b8b5bc46bf82a2950796ef").then((response) => {
   return response.json()
 }).then((json) => {
 
